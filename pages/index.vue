@@ -6,11 +6,12 @@
 </template>
 
 <script>
-import NestedTable from '@/components/NestedTable.vue';
+import NestedTable from '~/components/NestedTable.vue';
 
 export default {
   components: {
     NestedTable,
   },
+
 };
 </script>
