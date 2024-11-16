@@ -56,13 +56,28 @@
                     :placeholder="event.contact_id"
                   />
                 </div>
+                <div class="w-full sm:w-1/2">
+                  <label class="block text-gray-600 font-medium mb-1">Duration (days)</label>
+                  <input
+                    type="text"
+                    class="w-full border border-gray-300 p-2 rounded-md focus:ring-2 focus:ring-blue-500"
+                    :placeholder="event.contact_id"
+                  />
+                </div>
+                <div class="w-full sm:w-1/2">
+                  <label class="block text-gray-600 font-medium mb-1">Credits</label>
+                  <input
+                    type="text"
+                    class="w-full border border-gray-300 p-2 rounded-md focus:ring-2 focus:ring-blue-500"
+                    :placeholder="event.contact_id"
+                  />
+                </div>
               </div>
             </div>
 
             <!-- Contents & Goals Section -->
-            <div class="p-6 border-t border-gray-200">
+              <div class="p-6 border-t border-gray-200"> 
               <h3 class="text-xl font-semibold text-gray-700 mb-4">Contents & Goals</h3>
-              <!-- Flexbox layout for single row input fields -->
               <div class="flex flex-wrap gap-4">
                 <div class="w-full sm:w-1/2">
                   <label class="block text-gray-600 font-medium mb-1">Seminar Contents</label>
@@ -97,7 +112,7 @@
                   />
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </main>
