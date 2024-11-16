@@ -10,11 +10,11 @@
           <tr>
             <th><input type="checkbox" /></th>
 
-            <th class="border px-4 py-1 text-left font-bold">Title</th>
-            <th class="border px-4 py-1 text-left font-bold">Created Date</th>
-            <th class="border px-4 py-1 text-left font-bold">Subtitle</th>
-            <th class="border px-4 py-1 text-left font-bold">Events</th>
-            <th class="border px-4 py-1 text-left font-bold">
+            <th class="border px-4 py-1 text-left font-bold" v-if="index===0">Title</th>
+            <th class="border px-4 py-1 text-left font-bold"  v-if="index===0">Created Date</th>
+            <th class="border px-4 py-1 text-left font-bold"  v-if="index===0">Subtitle</th>
+            <th class="border px-4 py-1 text-left font-bold"  v-if="index===0">Events</th>
+            <th class="border px-4 py-1 text-left font-bold" v-if="index===0">
               Shorthand Symbol
             </th>
 
